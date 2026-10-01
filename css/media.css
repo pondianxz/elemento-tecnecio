@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+    .divFigures{
+        flex-direction: column;
+        gap: 0;
+    }
+    .divFigure{
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 800px) {
+    main{
+        width: 100dvw;
+    }
+}
+
+@media (max-width: 600px) {
+    .imgPechblenda{
+        width: 300px;
+    }
+}

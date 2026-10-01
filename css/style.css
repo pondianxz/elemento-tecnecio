@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    background: #becbff;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60dvw;
+    padding: 0 40px;
+    background: white;
+    box-shadow: 0 0 20px 20px #3e64e34d;
+}
+
+h1{
+    margin: 40px 0 20px 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h2{
+    margin: 30px 0 10px 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+p, li, table, td, tr{
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+
+li{
+    margin-left: 42px;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+table, td, tr{
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px;
+}
+
+strong{
+    font-weight: 700;
+}
+
+.divFigures{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+
+    img{
+        max-height: 300px;
+    }
+}
+
+.divFigure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+figure{
+    border: 1px solid #afafaf;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+figcaption{
+    font-size: .9rem;
+    padding: 3px;
+    text-align: center;
+    width: 80%;
+}
+
+img{
+    border-radius: 7px;
+}
+
+.imgPechblenda{
+    width: 400px;
+}
+
+.linha{
+    width: 95%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #737373, #ffffff);
+    margin-bottom: 20px;
+}
+
+.ultimasecao{
+    margin: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    p{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+.divDev{
+    display: flex;
+    gap: 20px;
+}
